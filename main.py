@@ -3,7 +3,7 @@ import os
 
 def main():
     i = 0
-    path = 'just_a_folder/'
+    path = "just_a_folder/"
 
     for filename in os.listdir(path):
         if filename[-4:] == '.txt':
